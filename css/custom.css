@@ -103,3 +103,8 @@ h2 {
   margin-right: 8px;
   opacity: 0.7;
 }
+
+thead{
+    background-color: #6d6d6d;
+    color: #fff;
+}
