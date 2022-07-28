@@ -1,3 +1,4 @@
+Term,"Definition"
 Accuracy,"Accuracy is the measurement of the deviation between the command characteristic and the attained characteristic (R15.05-2), or the precision with which a computed or calculated robot position can be attained. Accuracy is normally worse than the arm's repeatability. Accuracy is not constant over the workspace, due to the effect of link kinematics."
 Base,The stable platform to which an industrial robotic arm is attached.
 Base Coordinate System,The Base Coordinate System (sometimes referred to as World Coordinate System) defines a common reference point for a cell or application. This is useful when using multiple robots or devices as positions defined in Base Coordinates will be the same for all robots and devices. (see figure at right)
