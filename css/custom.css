@@ -103,8 +103,7 @@ h2 {
   margin-right: 8px;
   opacity: 0.7;
 }
-
-thead{
+.table-striped thead tr{
     background-color: #6d6d6d;
     color: #fff;
 }
