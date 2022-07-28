@@ -104,6 +104,6 @@ h2 {
   opacity: 0.7;
 }
 .table-striped thead tr{
-    background-color: #6d6d6d;
+    background-color: #0076be !important;
     color: #fff;
 }
