@@ -14,3 +14,4 @@ Downtime,"A period of time, in which, a robot or production line is shut down, d
 Encoder,"A feedback device in the robot manipulator arm that provides current position (and orientation of the arm) data to the controller. A beam of light passes through a rotating code disk that contains a precise pattern of opaque and transparent segments on its surface. Light that is transmitted through the disk strikes photo-detectors, which convert the light pattern to electrical signals. See Feedback, Closed-loop Control and Feedback Sensor."
 End-effector,"An accessory device or tool, specifically designed for attachment to the robot wrist or tool mounting plate to enable the robot to perform its intended task. (Examples may include: gripper, spot weld gun, arc weld gun, spray point gun or any other application tools.) (R15.06)"
 Error,The difference between the actual response of a robot and a command issued.
+TEST,This is a test #1
