@@ -1,31 +1,102 @@
 Name,Abbreviation,Description
+Accuracy,,"Accuracy is the measurement of the deviation between the command characteristic and the attained characteristic (R15.05-2), or the precision with which a computed or calculated robot position can be attained. Accuracy is normally worse than the arm's repeatability. Accuracy is not constant over the workspace, due to the effect of link kinematics."
+Artificial Intelligence Level 0,AL0,No Automation
+Artificial Intelligence Level 1,AL1,Driver Assistance
+Artificial Intelligence Level 2,AL2,Partial Automation
+Artificial Intelligence Level 2+,AL2+,Advanced Partial Automation
+Artificial Intelligence Level 3,AL3,Conditional Automation
+Artificial Intelligence Level 4,AL4,High Automation
+Artificial Intelligence Level 5,AL5,Full Automation
 Autonomous Guided Vehicles,AGV,
-Artificial Intelligence,AI,
-Level 0,AL0,No Automation
-Level 1,AL1,Driver Assistance
-Level 2,AL2,Partial Automation
-Level 2+,AL2+,Advanced Partial Automation
-Level 3,AL3,Conditional Automation
-Level 4,AL4,High Automation
-Level 5,AL5,Full Automation
 Autonomous Mobile Robots,AMR,
-Capital Expenditure,CAPEX,
+Base,,The stable platform to which an industrial robotic arm is attached.
+Base Coordinate System,,The Base Coordinate System (sometimes referred to as World Coordinate System) defines a common reference point for a cell or application. This is useful when using multiple robots or devices as positions defined in Base Coordinates will be the same for all robots and devices. (see figure at right)
+Base Link,,The stationary base structure of a robot arm that supports the first joint.
 Capability Development Document,CDD,
+Capital Expenditure,CAPEX,
+Cartesian Coordinates,,"Cartesian Coordinates is a type of coordinate system that specifies the location of a point in two dimensional space by a pair of numerical numbers, which further specify the distance to fixed axes that are perpendicular to each other. In simple terms, an XY graph represents a two dimensional Cartesian Coordinate System. When a point is specified in a three dimensional space (XYZ graph), it constitutes a three dimensional Cartesian coordinate system. A robot’s TCP position is specified in a Cartesian Coordinate."
+Centrifugal Force,,"When a body rotates about an axis other than one at it's center of mass, it exerts an outward radial force called centrifugal force upon the axis, which restrains it from moving in a straight tangential line. To offset this force, the robot must exert an opposing torque at the joint of rotation."
+Closed-loop,CL,"Control achieved by a robot manipulator by means of feedback information. As a manipulator is in action, its sensors continually communicate information to the robot's controller, which is used to further guide the manipulator within the given task. Many sensors are used to feed back information about the manipulator's placement, speed, torque, applied forces, as well as the placement of a targeted moving object, etc. See Feedback."
+Collaborative Robot,,Term used to describe a robot system designed to operate in one or more of the four collaborative modes.
+Command Position,,The endpoint position of a robot motion that the controller is trying to achieve.
+Computer Aided Design,CAD,"Computer Aided Design (CAD). Computer graphic applications designed to allow engineering of objects (or parts), which are to be manufactured. A computer is used as a tool to design schematics and produce blueprints, which enable the accurate production of the object. The CAD system enables the three dimensional drawings of basic figures, exact sizing and placement of components, making lines of specified length, width, or angle, as well as satisfying varying geometric shapes. This system also allows the designer to test a simulated part under different stresses, loads, etc."
 Concept of Operations,CONOPS,
 Critical Technology Elements,CTE,
+Dead reckoning,,"The process of calculating one's position, especially at sea, by estimating the direction and distance traveled rather than by using landmarks, astronomical observations, or electronic navigation methods"
+Degrees of Freedom,,"The number of independent directions or joints of the robot (R15.07), which would allow the robot to move its end effector through the required sequence of motions. For arbitrary positioning, 6 degrees of freedom are needed: 3 for position (left-right, forward-backward and up- down), and 3 for orientation (yaw, pitch and roll)."
+Direct-drive,,"Joint actuation, including no transmission elements (i.e., the link is bolted onto the output of the motor.)"
+Distance,,
+Downtime,,"A period of time, in which, a robot or production line is shut down, due to malfunction or failure. See Uptime."
 Electrical Interface Control Drawing,EICD,
+Electronic component,,An electronic component is any basic discrete device or physical entity in an electronic system used to affect electrons or their associated fields.
+Encoder,,"A feedback device in the robot manipulator arm that provides current position (and orientation of the arm) data to the controller. A beam of light passes through a rotating code disk that contains a precise pattern of opaque and transparent segments on its surface. Light that is transmitted through the disk strikes photo-detectors, which convert the light pattern to electrical signals. See Feedback, Closed-loop Control and Feedback Sensor."
+End-effector,EE,"An accessory device or tool, specifically designed for attachment to the robot wrist or tool mounting plate to enable the robot to perform its intended task. (Examples may include: gripper, spot weld gun, arc weld gun, spray point gun or any other application tools.) (R15.06)"
 Engineering & Manufacturing Development,EMD,
 Engineering Development Unit,EDU,
+Error,,The difference between the actual response of a robot and a command issued.
+Expandability,,"Being able to add resources to the system, such as memory, larger hard drive, new I/O card, etc."
+External Force Limit,,"The threshold limit where the robot moves to or retains position, even when external forces are applied (provided that forces do not exceed limits that would cause an error)."
+Feedback,,The return of information from a manipulator or sensor to the processor of the robot to provide self-correcting control of the manipulator.
+Feedback Control,,"A type of system control obtained when information from a manipulator or sensor is returned to the robot controller in order to obtain a desired robot effect. See Feedback, Closed-loop Control and Feedback Sensor."
+Feedback Sensor,,A mechanism through which information from sensing devices is fed back to the robot's control unit. The information is utilized in the subsequent direction of the robot's motion. See Closed-loop Control and Feedback Control.
+Flexibility,,The ability of a robot to perform a variety of different tasks.
+Force Feedback,,A sensing technique using electrical signals to control a robot end-effector during the task of the end-effector. Information is fed from the force sensors of the end-effector to the robot control unit during the particular task to enable enhanced operation of the end-effector.
+Force Sensor,,A sensor capable of measuring the forces and torque exerted by a robot and its wrist. Such sensors usually contain strain gauges. The sensor provides information needed for force feedback. See Force Feedback
+Forward Kinematic Solution,,"The calculation required to find the endpoint position, given the joint positions. For most robot topologies this is easier than finding the inverse kinematic solution."
+Forward Kinematics,,Computational procedures which determine where the end-effector of a robot is located in space. The procedures use mathematical algorithms along with joint sensors to determine its location.
+Frame,,"A coordinate system used to determine a position and orientation of an object in space, as well as the robot's position within its model."
+Gantry,,"An adjustable hoisting machine that slides along a fixed platform or track, either raised or at ground level along the X, Y, Z axes."
+Gantry Robot,,"A robot which has three degrees of freedom along the X, Y and Z coordinate system. Usually consists of a spooling system (used as a crane), which when reeled or unreeled provides the up and down motion along the Z axis. The spool can slide from left to right along a shaft which provides movement along the Z axis. The spool and shaft can move forward and back along tracks which provide movement along the Y axis. Usually used to position its end effector over a desired object and pick it up."
+Gravity Loading,,"The force exerted downward, due to the weight of the robot arm and/or the load at the end of the arm. The force creates an error with respect to position accuracy of the end effector. A compensating force can be computed and applied bringing the arm back to the desired position."
+Gripper,,"An end effector that is designed for seizing and holding (ISO 8373) and ""grips"" or grabs an object. It is attached to the last link of the arm. It may hold an object using several different methods, such as: applying pressure between its ""fingers"", or may use magnetization or vacuum to hold the object, etc. See End-effector."
+Hand,,"A clamp or gripper used as an end-effector to grasp objects. See End-effector, Gripper."
+Hand Guiding,,Collaborative feature that allows an operator to hand guide the robot to a desired position. This task can be achieved by utilizing additional external hardware mounted directly to the robot or by a robot specifically designed to support this feature. Both solutions will require elements of functional safety to be utilized. A risk assessment shall be used to determine if any additional safeguarding is necessary to mitigate risks within the robot system.
 Hardware in the Loop,HWIL,
-Integrated Robotic Level,IRL,Integrated Robotic Level
-IRL 1: Human Operation,IRL1,IRL 1: Human Operation
-IRL 2: Human-Machine Operation,IRL2,IRL 2: Human-Machine Operation
-IRL 3: Local-Remote Robotic Operation,IRL3,IRL 3: Local-Remote Robotic Operation
-IRL 4: Remote Robotic Operation,IRL4,IRL 4: Remote Robotic Operation
-IRL 5: Autonomous Robotic Operation,IRL5,IRL 5: Autonomous Robotic Operation
-Mechanical Interface Control Drawing,MICD,
+Harmonic Drive,,Compact lightweight speed reducer that converts high speed low torque to low speed high torque. Usually found on the minor (smaller) axis.
+Harness,,"Usually several wires, bundled together to deliver power and/or signal communications to/from devices. For example, the robot motors are connected to the controller through a wire harness."
+Hazardous Motion,,Unintended/unexpected robot motion that may cause injury.
+Hold,,"A stopping of all movements of a robot during its sequence, in which some power is maintained on the robot. For example, program execution stops, however power to the servo motors remain on, if restarting is desired."
+Home Position,,"A known and fixed location on the basic coordinate axis of the manipulator where it comes to rest, or to an indicated zero position for each axis. This position is unique for each model of manipulator. On Motoman® robots there are indicator marks that show the Home position for the respective axis."
+Inductive Sensor,,"The class of proximity sensors, which has half of a ferrite core, whose coil is part of an oscillator circuit. When a metallic object enters this field, at some point, the object will absorb enough energy from the field to cause the oscillator to stop oscillating. This signifies that an object is present in a given proximity. See Proximity Sensor."
+Industrial Robot,,"A re-programmable multifunctional manipulator designed to move material, parts, tools or specialized devices through variable programmed motions for the performance of a variety of tasks (R15.06). The principle components are: one or more arms that can move in several directions, a manipulator, and a computer controller that gives detailed movement instructions."
+Input Devices,,"A variety of devices, which allow a human to machine interface. This allows the human to program, control, and simulate the robot. Such devices include programming pendant, computer keyboards, a mouse, joy-sticks, push buttons, operator panel, operator pedestal etc."
+Instruction,,A line of programming code that causes action from the system controller. See Command position.
+Instruction Cycle,,The time it takes for a robot controller system's cycle to decode a command or instruction before it is executed. The Instruction Cycle must be analyzed very closely by robotic programmers to enable speedy and proper reaction to varying commands.
+Integrate,,"To fit together different subsystems, such as robots and other automation devices, or at least different versions of subsystems in the same control shell."
+Integrated Robotic Level 1,IRL1,IRL 1: Human Operation
+Integrated Robotic Level 2,IRL2,IRL 2: Human-Machine Operation
+Integrated Robotic Level 3,IRL3,IRL 3: Local-Remote Robotic Operation
+Integrated Robotic Level 4,IRL4,IRL 4: Remote Robotic Operation
+Integrated Robotic Level 5,IRL5,IRL 5: Autonomous Robotic Operation
+Integrator,,A company that provides value added services that results in creation of automation solutions by combining a robot and other automation and controls equipment to create an automation solution for end users.
+Intelligent Robot,,A robot that can be programmed to make performance choices contingent on sensory inputs with little or no help from human intervention. See Robot.
+Interference Area,,"Interference Area is a function that prevents interference between multiple manipulators or the manipulator and peripheral device. The areas can be set up to 64 areas. Three types of methods to use each interference area are as follows: Cubic Interference, Outside of Cubic Area and Axis Interference."
+Interpolation,,"The method by which endpoint paths are created. In general, to specify a motion a few knot points are defined before all the intermediate positions between them are calculated by mathematical interpolation. The interpolation algorithm used therefore has a dramatic effect of the quality of motion."
+ISO,,International Organization for Standardization
+Jacobian matrix,,The Jacobian matrix relates the rates of change of joint values with the rates of change of endpoint co-ordinates. Essentially it is a set of algorithm calculations that are processed to control the positioning of a robot.
+Joint,,"A part of the manipulator system, which allows a rotation and/or translational degree of freedom of a link of end-effector."
+Joint Interpolated Motion,,"A method of coordinating the movement of the joints, such that all joints arrive at the desired location simultaneously. This method of servo control produces a predictable path regardless of speed and results in the fastest pick and place cycle time for a particular move."
+Joint Motion Type,,"Also known as Point-to-Point Motion, Joint Motion Type is a method of path interpolation that commands the movement of the robot by moving each joint directly to the commanded position so that all axis arrive to the position at the same time. Although the path is predictable, it will not be linear."
+Joint Space,,"a. Joint Space (or Joint Coordinates) is just a method of defining the position of the robot in terms of the value of each axis instead of as a TCP position. For example, the Home Position of a robot is often defined in Joint Space as each axis being at 0 degrees."
+Joints,,The parts of the robot arm which actually bend or move.
+Kinematics,,"The relationship between the motion of the endpoint of a robot and the motion of the joints. For a Cartesian Robot this is a set of simple linear functions (linear tracks that may be arranged in X, Y, Z directions), for a revolute topology (joints that rotate) however, the kinematics are much more complicated involving complicated combinations of trigonometry functions. The kinematics of an arm is normally split into forward and inverse solutions."
+Ladle Gripper,,"An end-effector, which acts as a scoop. It is commonly used to scoop up liquids, transfer it to a mold and pour the liquid into the mold. Common for handling molten metal under hazardous conditions. See End-effector."
+Laser,,"Acronym for Light Amplification by Stimulated Emission of Radiation. A device that produces a coherent monochromatic beam of light which is extremely narrow and focused but still within the visible light spectrum. This is commonly used as a non-contact sensor for robots. Robotic applications include: distance finding, identifying accurate locations, surface mapping, bar code scanning, cutting, welding etc."
+Link,,"A rigid part of a manipulator, which connects adjacent joints."
+Links,,"The static material, which connects the joints of an arm together. Thereby a kinematical chain is formed. In a human body, the links are the bones."
+Load Cycle Time,,"A manufacturing or assembly line process term, which describes the complete time to unload the last work piece and load the next one."
 Machine Learning,ML,
+Magnetic Detectors,,Robot sensors that can sense the presence of ferromagnetic material. Solid-state detectors with appropriate amplification and processing can locate a metal object to a high degree of precision. See Sensor.
+Manipulator,,"A machine or robotic mechanism of which usually consists of a series of segments (jointed or sliding relative to one another) for the purpose of grasping and/or moving objects (pieces or tools), usually in several degrees of freedom. The control of the manipulator may be by an operator, a programmable electronic controller or any logic system (for example cam device, wired, etc.) (ISO 8373)"
+Manipulators & Effectors,,
 Manufacturing Readiness Level,MRL,
+Material Handling,,The process by which an industrial robotic arm transfers materials from one place to another.
+Material Processing Robot,,"A robot designed and programmed so that it can machine, cut, form or change the shape, function or properties of materials it handles between the time the materials are first grasped and the time they are released in a manufacturing process."
+Mechanical Interface Control Drawing,MICD,
+Mobility or locomotion,,
+Modularity,,"The property of flexibility built into a robot and control system by assembling separate units, which can be easily joined to or arranged with other parts or units."
+Module,,Self-contained component of a package. This component may contain sub-components known as sub-modules.
+Motion Axis,,The line defining the axis of motion either linear or rotary segment of a manipulator.
 MRL 1,MRL1,Basic Manufacturing Implications Identified
 MRL 10,MRL10,Full Rate Production demonstrated and lean production practices in place
 MRL 2,MRL2,Manufacturing Concepts Identified
@@ -36,14 +107,82 @@ MRL 6,MRL6,Capability to produce a prototype system or subsystem in a production
 MRL 7,MRL7,"Capability to produce systems, subsystems, or components in a production representative environment completed and producibility enhancements and risk assessments are underway. Technologies should be on a path to achieve TRL 7."
 MRL 8,MRL8,Pilot line capability demonstrated; Ready to begin Low Rate Initial Production
 MRL 9,MRL9,Low rate production demonstrated; Capability in place to begin Full Rate Production
-Original Equipment Manufacturer,OEM,
+Off-line Programming,,A programming method where the task program is defined on devices or computers separate from the robot for later input of programming information to the robot. (ISO 8373)b. A means of programming a robot while the robot is functioning. This becomes important in manufacturing and assembly line production due to keeping productivity high while the robot is being programmed for other tasks.
 Operational Expenditure,OPEX,
+Operator,,"The person designated to start, monitor and stop the intended productive operation of a robot or robot system. An operator may also interface with a robot for productive purposes. (R15.06)"
+Operator interface,,
+Optical Encoder,,"A detection sensor, which measures linear or rotary motion by detecting the movement of markings past a fixed beam of light. This can be used to count revolutions, identify parts, etc."
+Optical Proximity Sensors,,Robot sensors which measure visible or invisible light reflected from an object to determine distance. Lasers are used for greater accuracy.
+Orientation,,"The angle formed by the major axis of an object relative to a reference axis. It must be defined relative to a three dimensional coordinate system. Angular position of an object with respect to the robot's reference system. See Roll, Pitch and Yaw."
+Original Equipment Manufacturer,OEM,
+Palletizing,,"The process of stacking packages (i.e., boxes, bags, containers, etc.) in an organized fashion on a pallet."
+Path,,The continuous locus of positions (or points in three dimensional space) traversed by the tool center point and described in a specified coordinate system. (R15.05-2)
+Payload - Maximum,,"The maximum mass that the robot can manipulate at a specified speed, acceleration/deceleration, center of gravity location (offset), and repeatability under continuous operation over a specified working space. Maximum payload is specified in kilograms. (R15.05-2)"
+Pendant [Teach Pendant],,"A hand-held input device, linked to the control system with which a robot can be programmed or moved. (ISO 8373) This enables the human operator to stand in the most favorable position to observe, control and record the desired movements in the robot's memory."
+Pendant Teaching,,"The mapping and recording of the position and orientation of a robot and/or manipulator system as the robot is manually moved in increments from an initial state along a path to a final goal state. The position and orientation of each critical point (joints, robot base, etc.) is recorded and stored in a database for each taught position the robot passes through on its path toward its final goal. The robot may now repeat the path on its own by following the path stored in the database."
+Perception,,
+Pick-and-Place Task,,A repetitive part transfer task composed of a picking action followed by a placing action.
+Pinch Points,,"A pinch point is any point at which it is possible for a person or part of a person’s body to be caught between moving parts of a machine, or between the moving and stationary parts of a machine, or between material and any part of the machine. A pinch point does not have to cause injury to a limb or body part, although it might cause injury – it only has to trap or pinch the person to prevent them from escaping or removing the trapped part from the pinch point."
+Pitch,,Rotation of the end-effector in a vertical plane around the end of the robot manipulator arm.
+Point-to-Point,,Manipulator motion in which a limited number of points along a projected path of motion is specified. The manipulator moves from point to point rather than a continuous smooth path.
+Pose,,"Alternative term for robot configuration, which describes the linear and angular position. The linear position includes the azimuth, elevation and range of the object. The angular position includes the roll, pitch and yaw of the object. See Roll, Pitch and Yaw."
+Position,,"The definition of an object's location in 3D space, usually defined by a 3D coordinate system using X, Y and Z coordinates."
+Presence-sensing Safeguarding Device,,"A device designed, constructed and installed to create a sensing field to detect an intrusion into such field by people, robots or objects. See Sensor."
+Programmable Robot,,A feature that allows a robot to be instructed to perform a sequence of steps and then to perform this sequence in a repetitive manner. It can then be reprogrammed to perform a different sequence of steps if desired.
+Programming,,
+Proximity Sensor,,"A non-contact sensing device used to sense when objects are a short distance away, and it can determine the distance of the object. Several types include: radio frequency, magnetic bridge, ultrasonic and photoelectric. Commonly used for: high speed counting, sensing metal objects, level control, reading coding marks and limit switches. See Inductive Sensor."
+Quality Assurance (QA),,"Describes the methods, policies and procedures necessary to conduct quality assurance testing during design, manufacturing and deliver phases of creating, reprogramming, or maintaining robots."
+Reach,,"The volume of space (envelope), which a robot's end-effector can reach in at least one orientation."
+Reach,,"The volume of space (envelope), which a robot's end-effector can reach in at least one orientation."
+Real-time System,,"A computer system in which the computer is required to perform its tasks within the time restraints of some process simultaneously with the system it is assisting. The computer processes system data (input) from the sensors for the purpose of monitoring and computing system control parameters (outputs) required for the correct operation of a system or process. The computer is required to do its work fast enough to keep pace with an operator interacting with it through a terminal device (such as a screen or keyboard). The operator interacting with the computer has access, retrieval and storage capability through a database management system. System access allows the operator to intervene and alter the system's operation."
+Record-playback Robot,,"A manipulator for which the critical points along desired trajectories are stored in sequence by recording the actual values of the joint-position encoders of the robot as it is moved under operational control. To perform the task, these points are played back to the robot's servo-system. See Servo-system."
+Rectangular-Coordinate Robot,,"A robot whose manipulator arm moves in linear motions along a set of Cartesian or rectangular axis in X, Y and Z directions. The shape of the work envelope forms a rectangular figure. See Work Envelope."
+Reliability,,The probability or percentage of time that a device will function without failure over a specified time period or amount of usage (R15.02). Also called: the robot's uptime or the Mean Time Between Failure (MTBF).
 Remotely Operated Vehicle,ROV,
+Repeatability,,"A measure of how close an arm can repeatedly obtain a taught position. For instance: once a manipulator is manually placed in a particular location and this location is resolved by the robot, the repeatability specifies how accurately the manipulator can return to that exact location. The degree of resolution within the robot control system determines the repeatability. In general, an arm's repeatability can never be better than its resolution. See Teach and Accuracy."
+Resolution,,"The amount of robot joint motion required for the position sensing to change by one count. Although the resolution of each joint feedback sensor is normally constant, the resolution of the endpoint in world coordinates is not constant for revolute arms, due to the non-linearity of the arm's kinematics."
+Revolute Joint,,"The joints of a robot, which are capable of rotary motion."
+Risk Assessment,,The process of evaluating the intended use of a machine or system for foreseeable hazards and then determining the level of risk involved for the tasks identified.
+Risk Mitigation,,"A secondary step in the risk assessment process that involves reducing the level of risk for the identified tasks, by applying risk reduction measures in order to eliminate or mitigate the hazards."
+Robot,,"A re-programmable, multifunctional manipulator designed to move material, parts, tools or specified devices through variable programmed motions for the performance of a variety of tasks. Common elements which make up a robot are: controller, manipulator and end-effector. See Manipulator, Controller and End-effector."
+Robot Coordinate System,,"The Robot Coordinate System is defined in the base axis of a Robot, and points in the Robot Coordinate System will be relative to the base of the robot. Note that by default the Base Coordinate System and Robot Coordinate System are the same. (see figure at right)"
+Robot Programming Language,,"An interface between a human user and a robot, which relates human commands to the robot."
+Robot Range Limit Monitoring,,Monitors the manipulator arm or its tool to be in the designated safety area
+Robot Simulation,,"A method for emulating and predicting the behavior and the operation of a robotic system based on the model (i.e.,. computer graphics) of the physical system. (R15.07)"
+Roll,,Rotation of the robot end effector in a plane perpendicular to the end of the manipulator arm. See Pitch and Yaw.
+Rotary Joint,,"A joint which twists, swings or bends about an axis."
+Rotational Motion,,"A joint which twists, swings or bends about an axis. An example of this is the elbow of a human arm."
+Safeguard,,"A barrier guard, device or safety procedure designed for the protection of personnel. (R15.06)"
+Second Home Position,,"Apart from the “home position” of the manipulator, the second home position can be set up as a check point for absolute data. The initial value of the second home position is the home position (where all axes are at pulse 0). The second home position can be changed."
+Sensing,,
+Sensor,,"Instruments used as input devices for robots, which enable it to determine aspects regarding the robot's environment, as well as the robot's own positioning. Sensors respond to physical stimuli (such as heat, light, sound, pressure, magnetism and motion), and they transmit the resulting signal or data for providing a measurement, operating a control or both. (R15.06)"
+Sensory Feedback,,"Variable data measured by sensors and relayed to the controller in a Closed-loop System. If the controller receives feedback that lies outside an acceptable range, then an error has occurred. The controller sends an error signal to the robot. The robot makes the necessary adjustments in accordance with the error signal."
+Service,,
+Servo Control,,The process by which the control system of the robot checks if the attained pose of the robot corresponds to the pose specified by the motion planning with required performance and safety criteria. (ISO 8373)
+Servo Motor,,"An electrical power mechanism used to effect motion or maintains position of the robot (for example, a motor which converts electrical energy to effect motion of the robot) (R15.07). The motor responds to a signal received from the control system and often incorporates an encoder to provide feedback to the control loop."
+Servo Pack,,"An alternating, current electrical power mechanism that is controlled through logic to convert electrical supply power that is in a sine wave form to a Pulse Width Modulated (PWM) square form, delivered to the motors for motor control: speed, direction, acceleration, deceleration and braking control."
+Servo-controlled Robot,,"The control of a robot through the use of a Closed-loop Servo-system, in which the position of the robot axis is measured by feedback devices and is stored in the controller's memory. See Closed-loop System and Servo-system."
+Servo-system,,"A system in which the controller issues commands to the motors, the motors drive the arm, and an encoder sensor measures the motor rotary motions and signals the amount of the motion back to the controller. This process is continued many times per second until the arm is repositioned to the point requested. See Servo-controlled Robot"
+Shoulder,,The first or second axis of a robot is sometimes referred to as a shoulder axis as it somewhat resembles a human shoulder. This is often used in describing humanoid or dual-arm systems such as the Yaskawa Motoman® SDA10D.
 SI,SI,International System of Units
+Simulation,,"A graphical computer program that represents the robot and its environment, which emulates the robot's behavior during a simulated run of the robot. This is used to determine a robot's behavior in certain situations, before actually commanding the robot to perform such tasks. Simulation items to consider are: the 3D modeling of the environment, kinematics emulation, path-planning emulation and simulation of sensors. See Sensor, Forward Kinematics and Robot."
+Singularity,,"A configuration where two joints of the robot arm become co-axial (aligned along a common axis). In a singular configuration, smooth path following is normally impossible and the robot may lose control. The term originates from the behavior of the Jacobian matrix, which becomes singular (i.e., has no inverse) in these configurations."
 Software in the Loop,SIL,
+Spline,,"A smooth, continuous function used to approximate a set of functions that are uniquely defined on a set of sub-intervals. The approximating function and the set of functions being approximated intersect at a sufficient number of points to insure a high degree of accuracy in the approximation. The purpose for the smooth function is to allow a robot manipulator to complete a task without jerky motion."
+Spline Motion Type,,A calculated path that the robot executesthat may be parabolic in shape. A spline motion may also accomplish a free form curve with mixtures of circular and parabolic shapes.
 System Requirement Document,SRD,
+Systems,,
+tcpTool Center Point (TCP),,"The Tool Center Point (TCP) defines the tip of the current tool as defined relative to the tool flange. For example, for a welding robot, the TCP will generally be defined at the tip of the welding gun. After defining and configuring the TCP, the robot motion will be defined relative to this frame (i.e., rotation in the Rx direction would cause rotation around the X-axis and positions will be taught in this frame."
+Teach,,To program a manipulator arm by manually guiding it through a series of motions and recording the position in the robot controller memory for playback.
+Teach Pendant,,"A handheld control box, which is used by an operator to remotely guide a robot through the motions of its tasks. The motions are recorded by the robot control system for future playback. Modern industrial robots come with programming pendants, which not only allow robot teaching, but also support full feature robot programming and safety user interface."
 Technology Readiness Assessment,TRA,
 Technology Readiness Level,TRL,
+Time,,
+Tool,,"A term used loosely to define a working apparatus mounted to the end of the robot arm, such as a hand, gripper, welding torch, screw driver, etc. See Arm, Gripper and End-effector."
+Tool Coordinates,,"When the tool attached to the robot moves, so does its tool coordinate system in reference to a fixed coordinate system, for example, world coordinates. In general, the tool coordinates do not align with the world XYZ coordinates."
+Tool Frame,,A coordinate system attached to the end-effector of a robot (relative to the base frame).
+Touch Sensor,,"Sensing device, sometimes used with the robot's hand or gripper, which senses physical contact with an object, thus giving the robot an artificial sense of touch. The sensors respond to contact forces that arise between themselves and solid objects."
+Trajectory Generation (Calculation),,The computation of motion functions that allow the movement of joints in a smooth controlled manner.
 TRL 1,TRL1,Basic principles observed and reported
 TRL 2,TRL2,Technology concept and/or application formulated.
 TRL 3,TRL3,Analytical and experimental critical function and/or characteristic proof of concept.
@@ -53,40 +192,26 @@ TRL 6,TRL6,System/subsystem model or prototype demonstration in a relevant envir
 TRL 7,TRL7,System prototype demonstration in an operational environment.
 TRL 8,TRL8,Actual system completed and qualified through test and demonstration.
 TRL 9,TRL9,Actual system has proven through successful mission operations.
-Unmanned Air Vehicle,UAV,
-User Interface,UI,User Interface
 UL1: Hobby,UL1,
 UL2: Educational,UL2,
 UL3: Research,UL3,
 UL4: Commercial,UL4,
 UL5: Government,UL5,
-User Experience,UX,User Experience
-Manipulators & Effectors,,
-Mobility or locomotion,,
-Operator interface,,
-Programming,,
-Sensing & Perception,,
-Dead reckoning,,"The process of calculating current position of some moving object by using a previously determined position, or fix, and then incorporating estimations of speed, heading direction, and course over elapsed time."
-Time,,
-Systems,,
-Work,,
-Distance,,
-Service,,
+Unmanned Air Vehicle,UAV,
 Unmanned Underwater Vehicle,UUV,
-Electronic component,,An electronic component is any basic discrete device or physical entity in an electronic system used to affect electrons or their associated fields.
-Accuracy,,"Accuracy is the measurement of the deviation between the command characteristic and the attained characteristic (R15.05-2), or the precision with which a computed or calculated robot position can be attained. Accuracy is normally worse than the arm's repeatability. Accuracy is not constant over the workspace, due to the effect of link kinematics."
-Base,,The stable platform to which an industrial robotic arm is attached.
-Base Coordinate System,,The Base Coordinate System (sometimes referred to as World Coordinate System) defines a common reference point for a cell or application. This is useful when using multiple robots or devices as positions defined in Base Coordinates will be the same for all robots and devices. (see figure at right)
-Base Link,,The stationary base structure of a robot arm that supports the first joint.
-Computer Aided Design,CAD,"Computer Aided Design (CAD). Computer graphic applications designed to allow engineering of objects (or parts), which are to be manufactured. A computer is used as a tool to design schematics and produce blueprints, which enable the accurate production of the object. The CAD system enables the three dimensional drawings of basic figures, exact sizing and placement of components, making lines of specified length, width, or angle, as well as satisfying varying geometric shapes. This system also allows the designer to test a simulated part under different stresses, loads, etc."
-Cartesian Coordinates,,"Cartesian Coordinates is a type of coordinate system that specifies the location of a point in two dimensional space by a pair of numerical numbers, which further specify the distance to fixed axes that are perpendicular to each other. In simple terms, an XY graph represents a two dimensional Cartesian Coordinate System. When a point is specified in a three dimensional space (XYZ graph), it constitutes a three dimensional Cartesian coordinate system. A robotâ€™s TCP position is specified in a Cartesian Coordinate."
-Centrifugal Force,,"When a body rotates about an axis other than one at it's center of mass, it exerts an outward radial force called centrifugal force upon the axis, which restrains it from moving in a straight tangential line. To offset this force, the robot must exert an opposing torque at the joint of rotation."
-Closed-loop,,"Control achieved by a robot manipulator by means of feedback information. As a manipulator is in action, its sensors continually communicate information to the robot's controller, which is used to further guide the manipulator within the given task. Many sensors are used to feed back information about the manipulator's placement, speed, torque, applied forces, as well as the placement of a targeted moving object, etc. See Feedback."
-Collaborative Robot,,Term used to describe a robot system designed to operate in one or more of the four collaborative modes.
-Command Position,,The endpoint position of a robot motion that the controller is trying to achieve.
-Degrees of Freedom,,"The number of independent directions or joints of the robot (R15.07), which would allow the robot to move its end effector through the required sequence of motions. For arbitrary positioning, 6 degrees of freedom are needed: 3 for position (left-right, forward-backward and up- down), and 3 for orientation (yaw, pitch and roll)."
-Direct-drive,,"Joint actuation, including no transmission elements (i.e., the link is bolted onto the output of the motor.)"
-Downtime,,"A period of time, in which, a robot or production line is shut down, due to malfunction or failure. See Uptime."
-Encoder,,"A feedback device in the robot manipulator arm that provides current position (and orientation of the arm) data to the controller. A beam of light passes through a rotating code disk that contains a precise pattern of opaque and transparent segments on its surface. Light that is transmitted through the disk strikes photo-detectors, which convert the light pattern to electrical signals. See Feedback, Closed-loop Control and Feedback Sensor."
-End-effector,EE,"An accessory device or tool, specifically designed for attachment to the robot wrist or tool mounting plate to enable the robot to perform its intended task. (Examples may include: gripper, spot weld gun, arc weld gun, spray point gun or any other application tools.) (R15.06)"
-Error,,The difference between the actual response of a robot and a command issued.
+Uptime,,"A period of time in which a robot or production line is operating or available to operate, as opposed to downtime."
+User Coordinate Setting,,"User coordinates are defined by three points that have been taught to the manipulator through axis operations. These three defining points are ORG, XX, and XY, as shown in the diagram below. These three points of positional data are registered in a user coordinate file. ORG is the home position, and XX is a point on the X-axis. XY is a point on the Y-axis side of the user coordinates that has been taught, and the directions of Y- and Z-axes are determined by point XY."
+User Coordinate System,,"user coordinate systemThe User Coordinate System is any reference point that a user has defined for their application. This is often attached to an object such as a pallet and allows a user to teach points relative to this object. For example, a set of position could be taught relative to a User Coordinate System attached to a pallet and then easily transferred to a different User Coordinate System on another pallet. This allows for positions to be reused efficiently. See also, User Coordinate Setting"
+User Experience,UX,User Experience
+User Interface,UI,User Interface
+Vision Guided,,Control system where the trajectory of the robot is altered in response to input from a vision system.
+Vision Sensor,,"A sensor that identifies the shape, location, orientation, or dimensions of an object through visual feedback, such as a television camera."
+Work,,
+Work Envelope,,"The set of all points which a manipulator can reach without intrusion. Sometimes the shape of the work space, and the position of the manipulator itself can restrict the work envelope."
+Work Home Position,,"The Work Home Position is a reference point for manipulator operations. It prevents interference with peripheral device by ensuring that the manipulator is always within a set range as a precondition for operations such as starting the line. The manipulator can be moved to the set Work Home Position by operation from the programming pendant, or by signal input from an external device. When the manipulator is in the vicinity of the Work Home Position, the Work Home Position signal turns ON."
+Work Piece,,"Any part which is being worked, refined or manufactured prior to its becoming a finished product."
+Workspace,,The volume of space within which the robot can perform given tasks.
+World Coordinates,,"A reference coordinate system in which the manipulator arm moves in linear motions along a set of Cartesian or rectangular axes in X, Y, and Z directions. The shape of the work envelope forms a rectangular figure. See Rectangular Coordinates."
+World Model,,"A three dimensional representation of the robot's work environment, including objects and their position and orientation in this environment, which is stored in robot memory. As objects are sensed within the environment the robot's controller system continually updates the World Model. Robots use this World Model to aid in determining its actions in order to complete given tasks."
+Wrist,,"A set of rotary joints between the arm and the robot end-effector that allow the end-effector to be oriented to the work-piece. In most cases the wrist can have degrees of freedom which enable it to grasp an object with roll, pitch, and yaw orientation. See Arm, End-effector, Roll, Pitch, Yaw and Work Piece."
+Wrist [Secondary Axis],,"An interconnected set of links and powered joints between the arm and end- effector, which supports, positions and orientates the end effector. (ISO 8373)"
