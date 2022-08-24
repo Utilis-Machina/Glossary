@@ -1,28 +1,92 @@
-Name,Description
-Accuracy,"Accuracy is the measurement of the deviation between the command characteristic and the attained characteristic (R15.05-2), or the precision with which a computed or calculated robot position can be attained. Accuracy is normally worse than the arm's repeatability. Accuracy is not constant over the workspace, due to the effect of link kinematics."
-Base,The stable platform to which an industrial robotic arm is attached.
-Base Coordinate System,The Base Coordinate System (sometimes referred to as World Coordinate System) defines a common reference point for a cell or application. This is useful when using multiple robots or devices as positions defined in Base Coordinates will be the same for all robots and devices. (see figure at right)
-Base Link,The stationary base structure of a robot arm that supports the first joint.
-Computer Aided Design (CAD),"Computer Aided Design (CAD). Computer graphic applications designed to allow engineering of objects (or parts), which are to be manufactured. A computer is used as a tool to design schematics and produce blueprints, which enable the accurate production of the object. The CAD system enables the three dimensional drawings of basic figures, exact sizing and placement of components, making lines of specified length, width, or angle, as well as satisfying varying geometric shapes. This system also allows the designer to test a simulated part under different stresses, loads, etc."
-Cartesian Coordinates,"Cartesian Coordinates is a type of coordinate system that specifies the location of a point in two dimensional space by a pair of numerical numbers, which further specify the distance to fixed axes that are perpendicular to each other. In simple terms, an XY graph represents a two dimensional Cartesian Coordinate System. When a point is specified in a three dimensional space (XYZ graph), it constitutes a three dimensional Cartesian coordinate system. A robot€™s TCP position is specified in a Cartesian Coordinate."
-Centrifugal Force,"When a body rotates about an axis other than one at it's center of mass, it exerts an outward radial force called centrifugal force upon the axis, which restrains it from moving in a straight tangential line. To offset this force, the robot must exert an opposing torque at the joint of rotation."
-Closed-loop,"Control achieved by a robot manipulator by means of feedback information. As a manipulator is in action, its sensors continually communicate information to the robot's controller, which is used to further guide the manipulator within the given task. Many sensors are used to feed back information about the manipulator's placement, speed, torque, applied forces, as well as the placement of a targeted moving object, etc. See Feedback."
-Collaborative Robot,Term used to describe a robot system designed to operate in one or more of the four collaborative modes.
-Command Position,The endpoint position of a robot motion that the controller is trying to achieve.
-Degrees of Freedom,"The number of independent directions or joints of the robot (R15.07), which would allow the robot to move its end effector through the required sequence of motions. For arbitrary positioning, 6 degrees of freedom are needed: 3 for position (left-right, forward-backward and up- down), and 3 for orientation (yaw, pitch and roll)."
-Direct-drive,"Joint actuation, including no transmission elements (i.e., the link is bolted onto the output of the motor.)"
-Downtime,"A period of time, in which, a robot or production line is shut down, due to malfunction or failure. See Uptime."
-Encoder,"A feedback device in the robot manipulator arm that provides current position (and orientation of the arm) data to the controller. A beam of light passes through a rotating code disk that contains a precise pattern of opaque and transparent segments on its surface. Light that is transmitted through the disk strikes photo-detectors, which convert the light pattern to electrical signals. See Feedback, Closed-loop Control and Feedback Sensor."
-End-effector,"An accessory device or tool, specifically designed for attachment to the robot wrist or tool mounting plate to enable the robot to perform its intended task. (Examples may include: gripper, spot weld gun, arc weld gun, spray point gun or any other application tools.) (R15.06)"
-Error,The difference between the actual response of a robot and a command issued.
-TEST1,This is a test #1
-TEST2,This is a test #2
-Test3,This is a test #3
-Test 4,This is a test #4
-Test 5,Five
-Test 6,Six
-Test 7,Seven
-Test 8,Eight
-Test 9,Nine
-Test 10,Ten
-Test 11,Eleven
+Name,Abbreviation,Description
+Autonomous Guided Vehicles,AGV,
+Artificial Intelligence,AI,
+Level 0,AL0,No Automation
+Level 1,AL1,Driver Assistance
+Level 2,AL2,Partial Automation
+Level 2+,AL2+,Advanced Partial Automation
+Level 3,AL3,Conditional Automation
+Level 4,AL4,High Automation
+Level 5,AL5,Full Automation
+Autonomous Mobile Robots,AMR,
+Capital Expenditure,CAPEX,
+Capability Development Document,CDD,
+Concept of Operations,CONOPS,
+Critical Technology Elements,CTE,
+Electrical Interface Control Drawing,EICD,
+Engineering & Manufacturing Development,EMD,
+Engineering Development Unit,EDU,
+Hardware in the Loop,HWIL,
+Integrated Robotic Level,IRL,Integrated Robotic Level
+IRL 1: Human Operation,IRL1,IRL 1: Human Operation
+IRL 2: Human-Machine Operation,IRL2,IRL 2: Human-Machine Operation
+IRL 3: Local-Remote Robotic Operation,IRL3,IRL 3: Local-Remote Robotic Operation
+IRL 4: Remote Robotic Operation,IRL4,IRL 4: Remote Robotic Operation
+IRL 5: Autonomous Robotic Operation,IRL5,IRL 5: Autonomous Robotic Operation
+Mechanical Interface Control Drawing,MICD,
+Machine Learning,ML,
+Manufacturing Readiness Level,MRL,
+MRL 1,MRL1,Basic Manufacturing Implications Identified
+MRL 10,MRL10,Full Rate Production demonstrated and lean production practices in place
+MRL 2,MRL2,Manufacturing Concepts Identified
+MRL 3,MRL3,Manufacturing Proof of Concept Developed
+MRL 4,MRL4,Capability to produce the technology in a laboratory environment
+MRL 5,MRL5,Capability to produce prototype components in a production relevant environment
+MRL 6,MRL6,Capability to produce a prototype system or subsystem in a production relevant environment
+MRL 7,MRL7,"Capability to produce systems, subsystems, or components in a production representative environment completed and producibility enhancements and risk assessments are underway. Technologies should be on a path to achieve TRL 7."
+MRL 8,MRL8,Pilot line capability demonstrated; Ready to begin Low Rate Initial Production
+MRL 9,MRL9,Low rate production demonstrated; Capability in place to begin Full Rate Production
+Original Equipment Manufacturer,OEM,
+Operational Expenditure,OPEX,
+Remotely Operated Vehicle,ROV,
+SI,SI,International System of Units
+Software in the Loop,SIL,
+System Requirement Document,SRD,
+Technology Readiness Assessment,TRA,
+Technology Readiness Level,TRL,
+TRL 1,TRL1,Basic principles observed and reported
+TRL 2,TRL2,Technology concept and/or application formulated.
+TRL 3,TRL3,Analytical and experimental critical function and/or characteristic proof of concept.
+TRL 4,TRL4,Component and/or breadboard validation in laboratory environment.
+TRL 5,TRL5,Component and/or breadboard validation in relevant environment.
+TRL 6,TRL6,System/subsystem model or prototype demonstration in a relevant environment.
+TRL 7,TRL7,System prototype demonstration in an operational environment.
+TRL 8,TRL8,Actual system completed and qualified through test and demonstration.
+TRL 9,TRL9,Actual system has proven through successful mission operations.
+Unmanned Air Vehicle,UAV,
+User Interface,UI,User Interface
+UL1: Hobby,UL1,
+UL2: Educational,UL2,
+UL3: Research,UL3,
+UL4: Commercial,UL4,
+UL5: Government,UL5,
+User Experience,UX,User Experience
+Manipulators & Effectors,,
+Mobility or locomotion,,
+Operator interface,,
+Programming,,
+Sensing & Perception,,
+Dead reckoning,,"The process of calculating current position of some moving object by using a previously determined position, or fix, and then incorporating estimations of speed, heading direction, and course over elapsed time."
+Time,,
+Systems,,
+Work,,
+Distance,,
+Service,,
+Unmanned Underwater Vehicle,UUV,
+Electronic component,,An electronic component is any basic discrete device or physical entity in an electronic system used to affect electrons or their associated fields.
+Accuracy,,"Accuracy is the measurement of the deviation between the command characteristic and the attained characteristic (R15.05-2), or the precision with which a computed or calculated robot position can be attained. Accuracy is normally worse than the arm's repeatability. Accuracy is not constant over the workspace, due to the effect of link kinematics."
+Base,,The stable platform to which an industrial robotic arm is attached.
+Base Coordinate System,,The Base Coordinate System (sometimes referred to as World Coordinate System) defines a common reference point for a cell or application. This is useful when using multiple robots or devices as positions defined in Base Coordinates will be the same for all robots and devices. (see figure at right)
+Base Link,,The stationary base structure of a robot arm that supports the first joint.
+Computer Aided Design,CAD,"Computer Aided Design (CAD). Computer graphic applications designed to allow engineering of objects (or parts), which are to be manufactured. A computer is used as a tool to design schematics and produce blueprints, which enable the accurate production of the object. The CAD system enables the three dimensional drawings of basic figures, exact sizing and placement of components, making lines of specified length, width, or angle, as well as satisfying varying geometric shapes. This system also allows the designer to test a simulated part under different stresses, loads, etc."
+Cartesian Coordinates,,"Cartesian Coordinates is a type of coordinate system that specifies the location of a point in two dimensional space by a pair of numerical numbers, which further specify the distance to fixed axes that are perpendicular to each other. In simple terms, an XY graph represents a two dimensional Cartesian Coordinate System. When a point is specified in a three dimensional space (XYZ graph), it constitutes a three dimensional Cartesian coordinate system. A robotâ€™s TCP position is specified in a Cartesian Coordinate."
+Centrifugal Force,,"When a body rotates about an axis other than one at it's center of mass, it exerts an outward radial force called centrifugal force upon the axis, which restrains it from moving in a straight tangential line. To offset this force, the robot must exert an opposing torque at the joint of rotation."
+Closed-loop,,"Control achieved by a robot manipulator by means of feedback information. As a manipulator is in action, its sensors continually communicate information to the robot's controller, which is used to further guide the manipulator within the given task. Many sensors are used to feed back information about the manipulator's placement, speed, torque, applied forces, as well as the placement of a targeted moving object, etc. See Feedback."
+Collaborative Robot,,Term used to describe a robot system designed to operate in one or more of the four collaborative modes.
+Command Position,,The endpoint position of a robot motion that the controller is trying to achieve.
+Degrees of Freedom,,"The number of independent directions or joints of the robot (R15.07), which would allow the robot to move its end effector through the required sequence of motions. For arbitrary positioning, 6 degrees of freedom are needed: 3 for position (left-right, forward-backward and up- down), and 3 for orientation (yaw, pitch and roll)."
+Direct-drive,,"Joint actuation, including no transmission elements (i.e., the link is bolted onto the output of the motor.)"
+Downtime,,"A period of time, in which, a robot or production line is shut down, due to malfunction or failure. See Uptime."
+Encoder,,"A feedback device in the robot manipulator arm that provides current position (and orientation of the arm) data to the controller. A beam of light passes through a rotating code disk that contains a precise pattern of opaque and transparent segments on its surface. Light that is transmitted through the disk strikes photo-detectors, which convert the light pattern to electrical signals. See Feedback, Closed-loop Control and Feedback Sensor."
+End-effector,EE,"An accessory device or tool, specifically designed for attachment to the robot wrist or tool mounting plate to enable the robot to perform its intended task. (Examples may include: gripper, spot weld gun, arc weld gun, spray point gun or any other application tools.) (R15.06)"
+Error,,The difference between the actual response of a robot and a command issued.
